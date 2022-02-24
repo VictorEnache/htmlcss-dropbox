@@ -1,0 +1,17 @@
+/*#region RegionName*/
+
+/*#endregion RegionName*/
+
+
+
+/*#region regola di reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*#endregion regola di reset */
+
+/*#region regole per dimensionare i blocchi, andranno cancellate-------------------*/
+
+/*#endregion*/
