@@ -18,6 +18,7 @@
     --secondary_color:#0061FF;
     --dark_color:#000000;
     --prominence_color:#61082B;
+    --light_color:white;
 }
 /*#endregion*/
 
@@ -83,6 +84,10 @@ a{
     text-decoration: none;
 }
 
+ul{
+    list-style: none;
+}
+
 #header_content,#footer_content{
     width: 1440px;
     margin: auto;
@@ -92,6 +97,33 @@ section{
     width: 1080px;
     margin: auto;
 }
+/*#endregion*/
+
+/*#region Regole site_header*/
+#site_navbar{
+    padding:1rem;
+    background-color:var(--light_color);
+    width: 100%;
+    
+}
+
+.logo img{
+    vertical-align: middle;
+    padding-right: 16px;
+}
+ #site_navbar a{
+    padding-left: 16px;;
+    padding-right: 16px;
+    color: var(--dark_color);
+    line-height: 30px;
+ }
+
+ #site_navbar .button{
+    background-color: var(--secondary_color);
+    font-size:13px;
+    color: var(--light_color);
+ }
+
 /*#endregion*/
 
 /*#region Regole site_main*/
