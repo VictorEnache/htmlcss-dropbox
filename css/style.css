@@ -1,6 +1,6 @@
 /*#region RegionName*/
 
-/*#endregion RegionName*/
+/*#endregion*/
 
 
 
@@ -11,6 +11,15 @@
     padding: 0;
 }
 /*#endregion Regola Di Reset */
+
+/*#region Variabili con ":root" selector*/
+:root{
+    --primary_color:#B4D0E7;
+    --secondary_color:#0061FF;
+    --dark_color:#000000;
+    --prominence_color:#61082B;
+}
+/*#endregion*/
 
 /*#region regole per dimensionare i blocchi, andranno cancellate-------------------*/
 header,footer{
