@@ -22,6 +22,12 @@
     background-color: black;
     height: 400px;
 }
+
+section{
+    border: 1px solid black;
+    height: 300px;
+    background-color: antiquewhite;
+}
 /*#endregion*/ /* -----------------------------------------------------------------*/
 
 /*#region Regole di Utility*/
@@ -32,5 +38,10 @@ a{
 
 #header_content,#footer_content{
     width: 1440px;
+    margin: auto;
+}
+
+section{
+    width: 1080px;
     margin: auto;
 }
