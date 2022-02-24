@@ -82,6 +82,8 @@ height: 200px;
     padding-top: 7px;
     padding-bottom: 7px;
  }
+
+ .
 /*#endregion*/
 
 /*#region Regole Generali*/
@@ -95,6 +97,11 @@ a{
 
 p{
     font-size: 16px;
+    width: 25%;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 ul{
@@ -151,18 +158,14 @@ h1{
     margin-left: 16px;
  }
 
-
- #header_content p{
-     width: 25%;
-     font-weight: 400;
-     line-height: 1.5rem;
-     padding-top: 2rem;
-     padding-bottom: 2rem;
- }
-
  .arrow_down{
      font-size: 2.5rem;
  }
+
+.delete{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
 
  #header_content img{
      width: 60%;
@@ -173,6 +176,14 @@ h1{
 /*#endregion*/
 
 /*#region Regole site_main*/
+.plans{
+    padding-top: 10rem;
+}
+
+.plan{
+    font-size: 15px;
+}
+
 .plan.float_left{
 width: 30%;
 }
@@ -185,6 +196,12 @@ width: 30%;
 .enterprise{
     width: 100%;
     margin-top: 53.891px;
+}
+
+.user{
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid black;
 }
 /*#endregion*/
 
