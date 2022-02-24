@@ -29,7 +29,7 @@ header,footer{
 
 section{
     border: 1px solid black;
-    height: 300px;
+    height: 800px;
     background-color: antiquewhite;
 }
 
@@ -41,13 +41,38 @@ section{
     background-color: aquamarine;
     height: 300px;
 }
+
+.plan.float_left{
+border:1px solid black;
+height: 200px;
+}
+
+.enterprise{
+    height: 100px;
+    border:1px solid black;
+}
 /*#endregion*/ /* -----------------------------------------------------------------*/
 
 /*#region Regole di Utility*/
+.clearfix{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.float_left{
+    float: left;
+}
+
+.float_right{
+    float: right;
+}
+/*#endregion*/
+
+/*#region Regole Generali*/
 a{
     text-decoration: none;
 }
-/*#endregion*/
 
 #header_content,#footer_content{
     width: 1440px;
@@ -58,4 +83,20 @@ section{
     width: 1080px;
     margin: auto;
 }
+/*#endregion*/
 
+/*#region Regole site_main*/
+.plan.float_left{
+width: 30%;
+}
+
+.standard{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.enterprise{
+    width: 100%;
+    margin-top: 53.891px;
+}
+/*#endregion*/
