@@ -4,14 +4,33 @@
 
 
 
-/*#region regola di reset */
+/*#region Regola Di Reset */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-/*#endregion regola di reset */
+/*#endregion Regola Di Reset */
 
 /*#region regole per dimensionare i blocchi, andranno cancellate-------------------*/
+#header_content{
+    background-color: red;
+    height: 600px;
+}
 
+#footer_content{
+    background-color: black;
+    height: 400px;
+}
+/*#endregion*/ /* -----------------------------------------------------------------*/
+
+/*#region Regole di Utility*/
+a{
+    text-decoration: none;
+}
 /*#endregion*/
+
+#header_content,#footer_content{
+    width: 1440px;
+    margin: auto;
+}
