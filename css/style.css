@@ -27,11 +27,6 @@ header,footer{
     background-color: beige;
 }
 
-#header_content{
-    background-color: red;
-    height: 600px;
-}
-
 #footer_content{
     background-color: black;
     height: 400px;
@@ -77,11 +72,29 @@ height: 200px;
 .float_right{
     float: right;
 }
+
+.button{
+    background-color: var(--secondary_color);
+    font-size:13px;
+    color: var(--light_color) !important;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+ }
 /*#endregion*/
 
 /*#region Regole Generali*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 a{
     text-decoration: none;
+}
+
+p{
+    font-size: 16px;
 }
 
 ul{
@@ -97,13 +110,29 @@ section{
     width: 1080px;
     margin: auto;
 }
+
+h1{
+    font-size: 85px;
+    font-weight: 700;
+}
 /*#endregion*/
 
 /*#region Regole site_header*/
+#site_header{
+    background-color: var(--primary_color);
+}
+
+#header_content{
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    position: relative;
+}
+
 #site_navbar{
     padding:1rem;
     background-color:var(--light_color);
     width: 100%;
+    min-width: 1440px;
     
 }
 
@@ -111,7 +140,7 @@ section{
     vertical-align: middle;
     padding-right: 16px;
 }
- #site_navbar a{
+ #site_navbar .clearfix>a, .float_left a{
     padding-left: 16px;;
     padding-right: 16px;
     color: var(--dark_color);
@@ -119,11 +148,28 @@ section{
  }
 
  #site_navbar .button{
-    background-color: var(--secondary_color);
-    font-size:13px;
-    color: var(--light_color);
+    margin-left: 16px;
  }
 
+
+ #header_content p{
+     width: 25%;
+     font-weight: 400;
+     line-height: 1.5rem;
+     padding-top: 2rem;
+     padding-bottom: 2rem;
+ }
+
+ .arrow_down{
+     font-size: 2.5rem;
+ }
+
+ #header_content img{
+     width: 60%;
+     position: absolute;
+     right: -1rem;
+     bottom: -4.5rem;
+ }
 /*#endregion*/
 
 /*#region Regole site_main*/
@@ -141,3 +187,4 @@ width: 30%;
     margin-top: 53.891px;
 }
 /*#endregion*/
+
