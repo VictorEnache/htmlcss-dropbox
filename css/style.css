@@ -59,7 +59,7 @@ height: 200px;
 /*#endregion*/ /* -----------------------------------------------------------------*/
 
 /*#region Regole di Utility*/
-.clearfix{
+.clearfix::after {
     display: table;
     content: "";
     clear: both;
@@ -83,12 +83,12 @@ height: 200px;
     padding-bottom: 7px;
  }
 
- .
 /*#endregion*/
 
 /*#region Regole Generali*/
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family:'Open Sans', sans-serif;
+    min-width: 1500px;
 }
 
 a{
@@ -138,7 +138,6 @@ h1{
 #site_navbar{
     padding:1rem;
     background-color:var(--light_color);
-    width: 100%;
     min-width: 1440px;
     
 }
