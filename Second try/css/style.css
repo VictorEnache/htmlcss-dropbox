@@ -1,0 +1,39 @@
+/* #region reset rule */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #endregion */
+
+/* #region color palette */
+:root{
+    --primary_color:#B4D0E7;
+    --secondary_color:#0061FF;
+    --dark_color:#000000;
+    --prominence_color:#61082B;
+    --light_color:white;
+}
+/* #endregion */
+
+/* #region utility classes */
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.float_left{
+    float: left;
+}
+
+.float_right{
+    float: right;
+}
+
+/* blue buttons */
+.blue_btn{
+    color: var(--light_color);
+    background-color: var(--secondary_color);
+}
+/* #endregion */
