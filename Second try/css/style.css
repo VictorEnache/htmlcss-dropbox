@@ -83,6 +83,10 @@
     }
 
     h3{
+        font-size: 30px;
+    }
+
+    h4{
         font-size: 24px;
     }
 
@@ -211,7 +215,7 @@
             height: 950px;
         }
 
-        .specifications h3{
+        .specifications h4{
             margin-top: 1.5rem;
         }
 
@@ -419,7 +423,7 @@
         }
         /* #endregion brands_aside */
 
-        /* region brands_main */
+        /* #region brands_main */
         .brands_main{
             background-color: #F5F5F5;
             padding: 2rem;
@@ -437,4 +441,58 @@
         }
         /* #endregion brands_main */
     /* #endregion brands section */
+
+    /* #region call to action section */
+    .call_to_action_section{
+        background-color: var(--primary_color);
+    }
+
+    .call_to_action_section .md_container{
+        padding: 7rem 0 7rem 0;
+    }
+
+    .call_to_action{
+        width: 65%;
+        padding-right: 6rem;
+        color: var(--prominence_color);
+    }
+
+    .call_to_action_btn{
+        width: 35%;
+    }
+
+    .call_to_action_btn a{
+        display: inline-block;
+        background-color: white;
+        padding: 0.5rem;
+        width: 100%;
+        text-align: center;
+        color: black;
+    }
+
+    /* #endregion call to action section */
+
+    /* #region faq section */
+    .faq_section{
+        padding: 7rem 0 7rem 0;
+    }
+
+    .faq_section h3{
+        padding-bottom: 3rem;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .question{
+        padding: 2.25rem 0 2.25rem 0;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    .question>strong{
+        width: 95%;
+    }
+
+    .faq_arrow{
+        width: 5%;
+    }
+    /* #endregion faq section */
 /* #endregion main */
