@@ -301,7 +301,7 @@
             margin-top: 2rem;
         }
 
-        img{
+        .partners_img img{
             width: 100%;
             height: 500px;
             object-fit: cover;
@@ -315,7 +315,6 @@
 
         .function_window{
             width: 33.33333%;
-            border:  1px solid black;
             height: 600px;
             padding-right: 3rem;
         }
@@ -324,6 +323,10 @@
             width: 100%;
             height: 250px;
             object-fit: cover;
+        }
+
+        .functions_section h2{
+            margin-bottom: 3rem;
         }
     /* #endregion function section */
     /* #endregion main */
