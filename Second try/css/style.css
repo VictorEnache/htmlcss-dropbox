@@ -131,7 +131,7 @@
         vertical-align: bottom;
     }
 
-    .links_nav>a{
+    .links_nav a{
         vertical-align: middle;
         margin-left: 2.5rem;
         color: var(--dark_color);
