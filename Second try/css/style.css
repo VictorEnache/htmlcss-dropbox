@@ -31,9 +31,282 @@
     float: right;
 }
 
-/* blue buttons */
+.icon{
+ width: 8%;
+}
+
+.icon_text{
+    width: 92%;
+}
+
+/* blue button */
 .blue_btn{
-    color: var(--light_color);
+    display: inline-block;
+    color: var(--light_color) !important;
     background-color: var(--secondary_color);
+    font-size: 13px;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+/* large container for header and footer content */
+.lg_container{
+    width: 1200px;
+    margin: auto;
+}
+
+/* medium container for sections */
+.md_container{
+    width: 950px;
+    margin: auto;
 }
 /* #endregion */
+
+/* #region general rules*/
+    body{
+        font-family:'Open Sans', sans-serif;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    h1{
+        display: inline-block;
+        font-size: 70px;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    h2{
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    p{
+        margin: 1.25rem 0 1.25rem 0;
+        font-weight: 500;
+    }
+/* #endregion */
+
+/* #region header properties */
+    #site_header{
+        background-color: var(--primary_color);
+    }
+
+    /* #region navbar properties */
+    #site_navbar{
+        background-color: var(--light_color);
+        padding: 1.25rem;
+    }
+
+    #site_navbar>.float_left{
+        width: 50%;
+    }
+
+    .logo>img{
+        vertical-align: bottom;
+    }
+
+    .links_nav>a{
+        vertical-align: middle;
+        margin-left: 2.5rem;
+        color: var(--dark_color);
+        font-weight: 500;
+    }
+    /* #endregion navbar*/
+
+    /* #region header img and text content */
+    .header_content{
+        padding: 4.5rem 0 4.5rem 0;
+        position: relative;
+    }
+
+    .header_content>p{
+        width: 35%;
+    }
+
+    .header_content>.blue_btn{
+        font-size: 16px;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+
+    .header_content>.cancel{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .arrow{
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+
+    .header_content>img{
+        width: 65%;
+        position: absolute;
+        right: -1rem;
+        bottom: -4rem;
+    }
+    /* #endregion header content */
+/* #endregion header*/
+
+/* #region  main properties*/
+    /* #region plans section */
+    .plans_section .md_container{
+        padding-top: 11rem;
+        margin-bottom: 10rem;
+    }
+
+    .billing{
+        margin: 3rem 0 2rem 0;
+    }
+
+    [type="radio"]{
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        vertical-align: middle;
+    }
+
+    label{
+        margin-right: 1rem;
+    }
+
+        /* #region vertical plan */
+        .vertical_plan{
+            width: 30%;
+            border: 1px solid lightgray;
+        }
+
+        .horizontal_plan{
+            border: 1px solid lightgray;
+            width: 100%;
+            margin-top: 47.5px;
+        }
+
+        .standard{
+            margin: 0 5% 0 5%;
+        }
+
+        .intended_use{
+            border-bottom: 1px solid lightgray;
+            text-align: center;
+            padding: 0.7rem 0 0.7rem 0;
+        }
+
+        .specifications{
+        padding: 0 1.25rem 0 1.25rem;
+        font-size: 14px;
+        font-weight: 500;
+        }
+
+        .vertical_plan .specifications{
+            height: 950px;
+        }
+
+        .specifications h3{
+            margin-top: 1.5rem;
+        }
+
+        .specifications strong{
+            font-size: 16px;
+        }
+
+        .price{
+            margin: 0.5rem 0 0.5rem 0;
+        }
+
+        .billing_period{
+            margin-bottom: 2.5rem;
+        }
+
+        .vertical_plan>.specifications>.clearfix{
+            margin-top: 1.25rem;
+        }
+
+        .try_free{
+            text-align: center;
+            background-color: var(--secondary_color);
+            margin: 2.5rem 0 1.5rem 0;
+        }
+
+        .buy_now{
+            margin-bottom: 1.5rem;
+        }
+
+        .buy_now a{
+            display: inline-block;
+            color: var(--secondary_color);
+            border-bottom: 1px solid var(--primary_color);
+            height: 1rem;
+        }
+
+        hr{
+            height: 0px;
+            border: none;
+            border-top: 1px solid lightgrey;
+            width: 3rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .bullet_point .icon{
+            color: var(--secondary_color);
+        }
+        /* #endregion vertical plan */
+
+        /* #region horizontal plan */
+        .enterprise_text{
+            width: 67%;
+        }
+
+        .enterprise_btn{
+            width: 33%;
+            text-align: center;
+            background-color: var(--secondary_color);
+            margin-top: 1.5rem;
+        }
+        /* #endregion horizontal plan */
+    /* #endregion plans */
+
+    /* #region partners section */
+        .partners_section{
+            margin-bottom: 10rem;
+        }
+
+        .partners_img{
+           width: 50%;
+        }
+
+        .partners_text{
+            width: 50%;
+            padding: 2rem 0 0 3rem;
+        }
+
+        .partners_text p{
+            line-height: 1.75rem;
+            font-weight: 500;
+        }
+
+        .partners_text a{
+            border: 1px solid black;
+            color: black;
+            padding: 0.5rem 1rem 0.5rem 1rem;
+            font-weight: 500;
+        }
+
+        .partners_text div{
+            margin-top: 2rem;
+        }
+
+        img{
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            vertical-align: bottom; /* serve a togliere quello spazio maledetto che si crea quando metti un img in un div */
+        }
+
+    /* #endregion partners section */
+    /* #endregion main */
