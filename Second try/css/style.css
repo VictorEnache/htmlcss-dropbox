@@ -273,7 +273,7 @@
 
     /* #region partners section */
         .partners_section{
-            margin-bottom: 10rem;
+            margin-bottom: 6rem;
         }
 
         .partners_img{
@@ -309,4 +309,21 @@
         }
 
     /* #endregion partners section */
+    
+    /* #region  functions section*/
+
+
+        .function_window{
+            width: 33.33333%;
+            border:  1px solid black;
+            height: 600px;
+            padding-right: 3rem;
+        }
+
+        .window_img img{
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+    /* #endregion function section */
     /* #endregion main */
