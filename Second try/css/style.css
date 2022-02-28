@@ -119,6 +119,7 @@
     #site_navbar{
         background-color: var(--light_color);
         padding: 1.25rem;
+        min-width: 1440px;
     }
 
     #site_navbar>.float_left{
@@ -375,6 +376,7 @@
     .brands_section{
         width: 1440px;
         height: 432px;
+        margin: auto;
     }
 
     .brands_aside{
