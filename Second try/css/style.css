@@ -175,6 +175,10 @@
         margin-right: 1rem;
     }
 
+    .try_free a{
+        width: 100%;
+    }
+
         /* #region vertical plan */
         .vertical_plan{
             width: 30%;
@@ -229,7 +233,6 @@
 
         .try_free{
             text-align: center;
-            background-color: var(--secondary_color);
             margin: 2.5rem 0 1.5rem 0;
         }
 
@@ -255,6 +258,10 @@
         .bullet_point .icon{
             color: var(--secondary_color);
         }
+
+        .enterprise_btn a{
+            width: 100%;
+        }
         /* #endregion vertical plan */
 
         /* #region horizontal plan */
@@ -265,7 +272,6 @@
         .enterprise_btn{
             width: 33%;
             text-align: center;
-            background-color: var(--secondary_color);
             margin-top: 1.5rem;
         }
         /* #endregion horizontal plan */
@@ -329,4 +335,106 @@
             margin-bottom: 3rem;
         }
     /* #endregion function section */
-    /* #endregion main */
+
+    /* #region consumers section */
+    .consumers_section h2{
+        width: 55%;
+        padding: 1.5rem 0 1.5rem 0;
+    }
+
+    .consumers_section a{
+        display: inline-block;
+        color: var(--secondary_color);
+        text-decoration: underline;
+    }
+
+    .consumers_section{
+        margin-bottom: 3rem;
+    }
+    /* #endregion consumers section */
+
+    /* #region brands section */
+    .brands_section{
+        width: 1440px;
+        height: 432px;
+    }
+
+    .brands_aside{
+        width: 30%;
+        height: 100%;
+    }
+
+    .brands_main{
+        width: 40%;
+        height: 100%;
+    }
+        /* #region brands_aside */
+        .brand_logo{
+            width: 50%;
+            height: 50%;
+            position: relative;
+        }
+
+        .brand_logo img{
+            width: 60%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            filter: invert();
+        }
+
+        .designit{
+            background-color: #A2D39B;
+            border: 0.5rem solid #D0E9CD;
+        }
+
+        .arizona{
+            background-color: #61082B;
+        }
+
+        .florida{
+            background-color: #0093CE;
+        }
+
+        .topps{
+            background-color: #FF1C1C;
+        }
+
+        .bicycle{
+            background-color: #D5001F;
+        }
+
+        .hearst{
+            background-color: #B4D0E7;
+        }
+
+        .planet{
+            background-color: #0D2481;
+        }
+
+        .clear_ch{
+            background-color: #FFD830;
+        }
+        /* #endregion brands_aside */
+
+        /* region brands_main */
+        .brands_main{
+            background-color: #F5F5F5;
+            padding: 2rem;
+        }
+
+        .designit_logo img{
+            width: 120px;
+            padding-bottom: 2rem;
+            padding-top: 1rem;
+        }
+
+        cite{
+            font-style: normal;
+            font-weight: 500;
+        }
+        /* #endregion brands_main */
+    /* #endregion brands section */
+/* #endregion main */
