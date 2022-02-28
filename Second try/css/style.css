@@ -90,8 +90,22 @@
         font-size: 24px;
     }
 
+    h5{
+        font-size: 20px;
+    }
+
     p{
         margin: 1.25rem 0 1.25rem 0;
+        font-weight: 500;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    li{
+        line-height: 1.75rem;
+        font-size: 14px;
         font-weight: 500;
     }
 /* #endregion */
@@ -256,7 +270,7 @@
             border: none;
             border-top: 1px solid lightgrey;
             width: 3rem;
-            margin-bottom: 2.5rem;
+            padding-bottom: 2.5rem;
         }
 
         .bullet_point .icon{
@@ -496,3 +510,36 @@
     }
     /* #endregion faq section */
 /* #endregion main */
+
+/* #region footer properties */
+#site_footer{
+    background-color: var(--dark_color);
+    color: white;
+    padding-bottom: 2.5rem;
+}
+
+.menu_container{
+    padding: 7rem 0 7rem 0;
+}
+
+.menu{
+    width: 20%;
+}
+
+.menu a{
+    color: var(--light_color);
+}
+
+.menu h5{
+    margin-bottom: 1.25rem;
+}
+
+.footer_content hr{
+    width: 7rem;
+}
+
+.languages span, .languages .fa-caret-up{
+    font-size: 12px;
+}
+
+/* #endregion footer */
