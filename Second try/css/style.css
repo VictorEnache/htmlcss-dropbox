@@ -131,7 +131,7 @@
         width: 200px;
         display: none;
         position: absolute;
-        background-color: wheat;
+        background-color:var(--prominence_color);
         margin-left: 2.5rem;
         z-index: 10;
     }
@@ -139,10 +139,12 @@
     .dropdown_content a{
         display: block;
         margin-left: 0 !important;
+        color: white !important;
     }
 
     .dropdown_content a:hover{
         background-color: var(--primary_color);
+        color: #000000 !important;
     }
 
     .dropdown:hover .dropdown_content{
