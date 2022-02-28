@@ -163,6 +163,10 @@
         margin-top: 2rem;
     }
 
+    .arrow a{
+        color: var(--dark_color);
+    }
+
     .header_content>img{
         width: 65%;
         position: absolute;
